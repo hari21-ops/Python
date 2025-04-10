@@ -27,4 +27,4 @@ jobs:
         pip install -r blog_project/requirements.txt
     - name: Run Tests
       run: |
-        python blog_project/blog/manage.py test
+        python blog_project/blog/manage.py blog_project/blog/articles/tests.py
