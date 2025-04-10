@@ -3,10 +3,10 @@ name: Python Blog CI
 on:
   push:
     paths:
-      - 'Python/blog/**'  # This will only trigger the CI when files inside python/blog/ change.
+      - 'Python/blog_project/**'  # This will only trigger the CI when files inside python/blog/ change.
   pull_request:
     paths:
-      - 'Python/blog/**'  # This ensures the CI is triggered for pull requests that affect files in python/blog/
+      - 'Python/blog_project/**'  # This ensures the CI is triggered for pull requests that affect files in python/blog/
 
 jobs:
   test:
