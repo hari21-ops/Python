@@ -8,3 +8,8 @@ class SanityTest(TestCase):
 class MyTests(TestCase):
     def test_example(self):
         self.assertEqual(1 - 1, 0)
+
+class MySanityTest(TestCase):
+    def test_basic_math(self):
+        self.assertEqual(32 * 4, 128)
+        
