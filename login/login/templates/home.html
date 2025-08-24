@@ -5,6 +5,7 @@
 
 {% block content %}
 {% if user.is_authenticated %}
+<title>Random</title>
 <p>Hi {{ user.username }} !</p>
 <p><a href="{% url 'password_change' %}">Password Change</a></p>
 <form action="{% url 'logout' %}" method="post">
