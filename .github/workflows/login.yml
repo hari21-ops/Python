@@ -2,10 +2,11 @@ name: LOGIN PROJECT CI
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+      - 'login/'
   pull_request:
-    branches: [ "main" ]
-
+    paths:
+      - 'login/'
 jobs:
   ci:
     runs-on: ubuntu-latest
