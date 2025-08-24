@@ -3,10 +3,10 @@ name: LOGIN PROJECT CI
 on:
   push:
     paths:
-      - 'login/'
+      - 'login/**'
   pull_request:
     paths:
-      - 'login/'
+      - 'login/**'
 jobs:
   ci:
     runs-on: ubuntu-latest
