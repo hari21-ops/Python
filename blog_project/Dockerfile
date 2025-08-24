@@ -1,4 +1,4 @@
-FROM python: 3.8 as builder 
+FROM python:3.8 as builder 
 WORKDIR /app
 COPY blog_project/requirements.txt requirements.txt
 RUN python -m venv /opt/venv
