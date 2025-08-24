@@ -3,10 +3,10 @@ name: BLOG_PROJECT CI
 on:
   push:
     paths:
-      - 'blog_project/'
+      - 'blog_project/**'
   pull_request:
     paths:
-      - 'blog_project/'
+      - 'blog_project/**'
 jobs:
   ci:
     runs-on: ubuntu-latest
