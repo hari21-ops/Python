@@ -14,4 +14,5 @@ COPY --from=builder /opt/venv /opt/venv
 COPY blog_project/ .
 
 # Set the entry point to run the app
-CMD ["gunicorn", "blog_project.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD [ "python", "blog/manage.py", runserver ] 
+#CMD ["gunicorn", "blog_project.wsgi:application", "--bind", "0.0.0.0:8000"]
