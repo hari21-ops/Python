@@ -1,28 +1,27 @@
 # ---- Logging Setup ----
-```
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-```
+
 # ---- Decrypt Credentials ----
-```
+
 key = "$"  # Add your actual encryption key here (must be same used for encryption)
 cipher = Fernet(key)
 decrypted_password_email = cipher.decrypt(credentials.email_pass).decode()
 decrypted_password_domain = cipher.decrypt(credentials.password).decode()
-```
+
 
 # ---- Configuration ----
-```
+
 imap_server = '' # Enter your imap server 
 imap_port = '' # Mention port
 email_user = '' # email id of your account 
 email_pass = decrypted_password_email # Provide pwd and decrypt at runtime 
-```
-```
+
+
 site_url = '' # As i said we are using it for sharepoint so you place your site url
 list_name = '' # name of list on sharepoint
 username = credentials.username # username 
 password = decrypted_password_domain 
-```
+
 
 # Mention your team members mail ids as dictionary with their id number onboard 
 
