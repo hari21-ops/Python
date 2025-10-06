@@ -1,5 +1,5 @@
 Hi All,
-This is very simple basic script to connect SharePoint List and creats an item in list. 
+This is very simple basic script to connect SharePoint List and creates an item in list. 
 
 Purpose to do script: 
 To automate ticket creation process on SharePoint which is received on outlook to a GAL using SharePoint API by Microsoft.
