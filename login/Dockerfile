@@ -14,7 +14,7 @@ FROM python:${python_version}-alpine
 ENV PATH="/opt/venv/bin:$PATH"
 WORKDIR /app
 COPY --from=builder /opt/venv /opt/venv
-COPY blog_project/ .
+COPY login/ .
 
 
 # Command to execute 
