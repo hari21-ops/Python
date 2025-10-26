@@ -24,7 +24,8 @@ Our process has 3 tasks that we divided:
   4. Create ticket with details provided in mail.
   5. Share the ticket ID with concern stakeholders on mail to L3 team notifying of ticket created with ID. 
   
-You can also find piece of code for each of above mentioned tasks/process below for reference:
+You can also find piece of code for each of above mentioned tasks/process in this folder. 
+Link for story: https://medium.com/@chiraggujarathi/automate-ticket-creation-using-sharepoint-407da6511b07
                                
 
 
